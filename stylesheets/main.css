@@ -9,3 +9,11 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
+ .membership {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+} 
+.latest-post {
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
