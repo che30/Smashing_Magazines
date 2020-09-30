@@ -1,3 +1,6 @@
+* {
+    border: 1px solid black;
+}
 /* header section */
 .grid-header-section {
     background-color: red;
@@ -18,7 +21,6 @@
 }
 
 .header-article {
-    border: 1px solid black;
     padding: 40px;
 }
 
@@ -34,4 +36,15 @@
   display: grid;
   grid-template-columns: repeat(3,1fr);
   background-color: lightslategray;
+}
+
+.supporters {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 400px;
+} 
+
+.partners {
+    display: flex;
+    flex-direction: column;
 }
