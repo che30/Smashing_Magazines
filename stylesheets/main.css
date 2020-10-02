@@ -1,6 +1,45 @@
-* {
-   
-    
+body {
+    font-family: 'Cabin', sans-serif;
+    max-width: 1440px;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    grid-template-columns: min-content 600px 100px 100px;
+    grid-gap: 20px;
+    align-items: center;
+    background-color: silver;
+    width: 100%;
+    font-size: 20px;
+    padding: 25px 10px;
+}
+
+nav a,
+nav a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+nav button {
+    height: 50px;
+    background-color: #505050;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+main {
+    width: 100%;
+}
+
+footer {
+    width: 90%;
 }
 
 .flex {
@@ -19,6 +58,39 @@
 }
 
 /* header section */
+.logo {
+    margin-left: 50px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.search-bar {
+    position: relative;
+}
+
+.search-bar input {
+    height: 40px;
+    width: 200px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.search-placeholder {
+    position: absolute;
+    left: 40px;
+    top: 0;
+    line-height: 40px;
+    width: max-content;
+    font-size: 20px;
+}
+
 .grid-header-section {
     background-color: red;
     grid-template-columns: 1fr;
@@ -95,15 +167,23 @@
     margin-right: 70px;
     margin-bottom: 50px;
 }
+
 .c-guide {
 justify-content: center;
 line-height: 25px;
 }
+
+nav button, 
+.smashing-books button,
+.guides button,
+nav input {
+    border-radius: 10px;
+}
+
 .smashing-books button,
 .guides button {
     width: 300px;
     height: 50px;
-    border-radius: 10px;
 }
 footer ul{
     
