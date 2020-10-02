@@ -100,7 +100,7 @@ footer {
 .grid-header-section {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    background-color: #585858;
+    background-color: rgb(56, 54, 54);;
     color: white;
     font-size: 20px;
     position: relative;
@@ -196,7 +196,13 @@ footer {
 .latest-post {
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  background-color: lightslategray;
+  column-gap: 50px;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  background-color: rgb(133, 131, 131);
+  color: white;
 }
 
 .supporters {
@@ -204,6 +210,10 @@ footer {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 400px;
 } 
+.smashing-members img {
+width: 258px;
+height: 290px;
+}
 
 .advertisment {
     background-color: blue;
