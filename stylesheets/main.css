@@ -1,6 +1,19 @@
 * {
     border: 1px solid black;
 }
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
 /* header section */
 .grid-header-section {
     background-color: red;
@@ -44,20 +57,18 @@
     grid-template-rows: 400px;
 } 
 
-.partners {
-    display: flex;
-    flex-direction: column;
-}
-
-.latest-articles {
-    display: flex;
-    justify-content: center;
-}
-
 .advertisment {
-    display: flex;
-    flex-direction: column;
     background-color: blue;
     width: 75%;
     margin: 30px auto;
+}
+
+.community-img {
+    float: left;
+    height: 100px;
+    width: 25%;
+}
+
+.community-article {
+    width: 75%;
 }
