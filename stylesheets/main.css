@@ -13,22 +13,22 @@
 .justify-center {
     justify-content: center;
 }
+.d-grid{
+    display: grid;
+}
 
 /* header section */
 .grid-header-section {
     background-color: red;
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
 }
 
 .grid-header-main {
-    display: grid;
     grid-template-columns: 2fr 1fr;
 }
 
 .grid-header-article {
-    display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 300px;
 }
@@ -71,4 +71,10 @@
 
 .community-article {
     width: 75%;
+}
+.twitter {
+    grid-template-columns: repeat(2,1fr 2fr);
+    column-gap: 70px;
+    row-gap: 100px;
+
 }
