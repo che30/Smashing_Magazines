@@ -48,3 +48,16 @@
     display: flex;
     flex-direction: column;
 }
+
+.latest-articles {
+    display: flex;
+    justify-content: center;
+}
+
+.advertisment {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    width: 75%;
+    margin: 30px auto;
+}
