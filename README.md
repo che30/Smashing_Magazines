@@ -2,7 +2,7 @@
 
 # A Smashing magazine article clone for microverse
 
-![screenshot](./assets/Images/screenshot_magazine.png)
+![screenshot](./assets/Images/smash_magazine.png)
 
 
 ## Built With
