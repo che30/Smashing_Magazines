@@ -180,7 +180,7 @@ footer {
 
 .membership,
 .smashing-books {
-    background: linear-gradient(rgb(151, 148, 148), #686868);
+    background: linear-gradient(rgb(131, 98, 98), #686868);
 }
 
 .membership article {
@@ -201,7 +201,7 @@ footer {
     top: -80px;
     position: absolute;
     right: 200px;
-}
+    }
 
 .cartoon img {
     width: 250px;
@@ -210,13 +210,13 @@ footer {
 
 /* latest-post section */
 .latest-post {
-  grid-template-columns: repeat(3,1fr);
-  column-gap: 50px;
-  padding-top: 40px;
-  padding-left: 30px;
-  padding-right: 30px;
-  font-size: 20px;
-  font-weight: 400;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 50px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .latest-post, 
@@ -313,8 +313,8 @@ footer {
 .latest-news {
     grid-template-columns: 25% 75%;
     grid-template-rows: 400px;
-   padding-top: 40px;
-   padding-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .latest-news img {
     width: 160px;
@@ -476,8 +476,8 @@ footer {
 }
 
 .c-guide {
-justify-content: center;
-line-height: 25px;
+    justify-content: center;
+    line-height: 25px;
 }
 
 button {
@@ -489,6 +489,7 @@ button {
     width: 300px;
     height: 50px;
 }
+/* FOOTER SECTION */
 footer ul{
     
     justify-content: center;
@@ -506,7 +507,7 @@ footer li {
 }
 
 footer p{
-  align-self: center;
+    align-self: center;
     max-width: 400px;
     text-justify: center;
     font-style: italic;
