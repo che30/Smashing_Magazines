@@ -526,3 +526,50 @@ footer p{
 .contact img {
     width: 150px;
 }
+
+@media (min-width: 300px) and (max-width: 800px) {
+    nav,
+    .grid-header-article,
+    .latest-post,
+    .membership,
+    .supporters,
+    .twitter ,
+    .smashing-books,
+    .guides,
+    .contact{
+        grid-template-columns: 1fr;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+     
+    .membership {
+        grid-template-rows: 800px;
+    }
+
+    .smashing-members {
+        max-width: 350px;
+    }
+
+    .smashing-members h2 {
+        width: 75%;
+    }
+    .cartoon img,
+    .smashing-books img {
+        display: none;
+    }
+
+    .latest-news img {
+        width: 50px;
+        height: 60px;
+    }
+
+    .latest-news p {
+        font-size: 13px;
+    }
+
+    .membership button {
+        width: 75%;
+    }
+}
