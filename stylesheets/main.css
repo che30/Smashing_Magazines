@@ -10,6 +10,14 @@ img {
     filter: grayscale(1);
 }
 
+.guides a,
+.guides a:visited {
+    font-size: 40px;
+    color: black;
+    display: block;
+    max-width: 65%;
+}
+
 nav {
     grid-template-columns: min-content 600px 100px 100px;
     grid-gap: 20px;
@@ -19,6 +27,27 @@ nav {
     font-size: 20px;
     padding: 25px 10px;
 }
+
+
+.smashing-members a,
+.smashing-members a:visited,
+.color-h5 a, 
+.color-h5 a:visited,
+.ad-section a,
+.ad-section a:visited {
+    color: white;
+}
+
+.color-h5 a,
+.color-h5 a:visited {
+    width: 100%;
+    height: 40px;
+    text-decoration: none;
+    border-bottom: 4px solid black;
+    font-size: 20px;
+    display: block;
+}
+
 
 nav a,
 nav a:visited {
@@ -30,6 +59,7 @@ nav ul {
     justify-content: space-between;
     list-style-type: none;
 }
+
 
 nav button {
     height: 50px;
@@ -111,6 +141,10 @@ footer {
     line-height: 40px;
     width: max-content;
     font-size: 20px;
+}
+
+button {
+    border-radius: 10px;
 }
 
 .grid-header-section {
@@ -261,15 +295,7 @@ footer {
     align-items: center;
 }
 
-.color-h5 a,
-.color-h5 a:visited {
-    width: 100%;
-    height: 40px;
-    text-decoration: none;
-    border-bottom: 4px solid black;
-    font-size: 20px;
-    display: block;
-}
+
 
 .our-friends {
     font-size: 12px;
@@ -303,14 +329,6 @@ footer {
     height: 290px;
 }
 
-.smashing-members a,
-.smashing-members a:visited,
-.color-h5 a, 
-.color-h5 a:visited,
-.ad-section a,
-.ad-section a:visited {
-    color: white;
-}
 .latest-news {
     grid-template-columns: 25% 75%;
     grid-template-rows: 400px;
@@ -331,6 +349,13 @@ footer {
     line-height: 2.5;
     max-width: 850px;
 }
+
+.smashing-books button,
+.guides button {
+    width: 300px;
+    height: 50px;
+}
+
 .shopify-partners {
     border: 1px solid black;
     width: 250px;
@@ -434,6 +459,7 @@ footer {
     max-width: 800px;
 }
 
+
 .smashing-books p {
     font-size: 20px;
     line-height: 2;
@@ -465,13 +491,14 @@ footer {
     font-weight: 100;
 }
 
-.guides a,
-.guides a:visited {
-    font-size: 40px;
-    color: black;
-    display: block;
-    max-width: 65%;
+footer p{
+    align-self: center;
+    max-width: 400px;
+    font-style: italic;
+    text-align: center;
+    font-size: 16px;
 }
+
 
 .guides p {
     font-size: 20px;
@@ -482,15 +509,7 @@ footer {
     line-height: 25px;
 }
 
-button {
-    border-radius: 10px;
-}
 
-.smashing-books button,
-.guides button {
-    width: 300px;
-    height: 50px;
-}
 /* FOOTER SECTION */
 footer ul{
     
@@ -506,15 +525,6 @@ footer li {
     text-transform: capitalize;
     font-size: 22px;
     line-height: 2;
-}
-
-footer p{
-    align-self: center;
-    max-width: 400px;
-    text-justify: center;
-    font-style: italic;
-    text-align: center;
-    font-size: 16px;
 }
 
 .contact {
