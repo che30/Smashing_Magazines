@@ -210,6 +210,7 @@ footer {
     background-color: rgb(133, 131, 131);
 }
 
+
 .supporters {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -217,6 +218,31 @@ footer {
     padding-bottom: 60px;
     padding-top: 60px;
 } 
+
+.partners {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    color: white;
+    max-width: 350px; 
+}
+.partners > h2 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.partners article {
+    font-size: 15px;
+    font-weight: 400;
+}
+.color-h5 {
+    font-size: 15px;
+    font-weight: 400;
+    background-color: rgb(56, 54, 54);;
+
+}
 
 .our-friends {
     margin-left: auto;
