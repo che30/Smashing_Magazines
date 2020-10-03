@@ -99,7 +99,7 @@ main {
 }
 
 footer {
-  background-color: rgb(65, 71, 71);
+  background-color: rgb(116, 119, 119);
 }
 
 .flex {
@@ -527,7 +527,7 @@ footer ul {
   align-items: center;
 }
 
-footer li {
+footer li a {
   margin-right: 10px;
   padding-right: 10px;
   padding-top: 20px;
@@ -535,15 +535,18 @@ footer li {
   text-transform: capitalize;
   font-size: 22px;
   line-height: 2;
+  text-decoration: none;
+  color: white;
 }
 
 .contact {
   grid-template-columns: 20% 60% 20%;
 }
 
-.contact ul li {
+.contact ul li a {
   font-size: 16px;
-  list-style: none;
+  text-decoration: none;
+  color: white;
 }
 
 .contact img {
