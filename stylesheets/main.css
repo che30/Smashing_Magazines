@@ -10,7 +10,56 @@ img {
   filter: grayscale(1);
 }
 
-.guides a,
+.color-h5-a,
+.color-h5-a:visited {
+  width: 100%;
+  height: 40px;
+  text-decoration: none;
+  border-bottom: 4px solid black;
+  font-size: 20px;
+  display: block;
+  color: white;
+}
+
+.ad-section-a {
+  font-size: 60px;
+}
+
+.smashing-link,
+.smashing-link:visited,
+.color-h5-a:visited,
+.ad-section-a,
+.ad-section-a:visited {
+  color: white;
+}
+
+.nav-a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.ad-section-a:visited {
+  font-size: 60px;
+}
+
+.guides a {
+  font-size: 40px;
+  color: black;
+  display: block;
+  max-width: 65%;
+}
+
+.smashing-books a,
+.smashing-books a:visited {
+  font-size: 50px;
+  color: white;
+}
+
 .guides a:visited {
   font-size: 40px;
   color: black;
@@ -28,34 +77,13 @@ nav {
   padding: 25px 10px;
 }
 
-.smashing-members a,
-.smashing-members a:visited,
-.color-h5 a,
-.color-h5 a:visited,
-.ad-section a,
-.ad-section a:visited {
-  color: white;
-}
-
-.color-h5 a,
-.color-h5 a:visited {
-  width: 100%;
-  height: 40px;
-  text-decoration: none;
-  border-bottom: 4px solid black;
-  font-size: 20px;
-  display: block;
-}
-
-nav a,
-nav a:visited {
-  text-decoration: none;
-  color: black;
-}
-
 nav ul {
   justify-content: space-between;
   list-style-type: none;
+}
+
+button {
+  border-radius: 10px;
 }
 
 nav button {
@@ -140,10 +168,6 @@ footer {
   line-height: 40px;
   width: max-content;
   font-size: 20px;
-}
-
-button {
-  border-radius: 10px;
 }
 
 .grid-header-section {
@@ -368,6 +392,13 @@ button {
   width: 150px;
 }
 
+.advertisment button {
+  width: 250px;
+  height: 60px;
+  font-size: 20px;
+  background-color: white;
+}
+
 .shopify-partners button {
   background-color: grey;
   width: 150px;
@@ -385,11 +416,6 @@ button {
   height: 1000px;
 }
 
-.ad-section a,
-.ad-section a:visited {
-  font-size: 60px;
-}
-
 .advertisment {
   width: 75%;
   margin: 30px auto;
@@ -400,13 +426,6 @@ button {
   font-size: 20px;
   max-width: 600px;
   margin-left: 150px;
-}
-
-.advertisment button {
-  width: 250px;
-  height: 60px;
-  font-size: 20px;
-  background-color: white;
 }
 
 .community-img {
@@ -447,15 +466,17 @@ button {
   top: -30px;
 }
 
-.smashing-books a,
-.smashing-books a:visited {
-  font-size: 50px;
-  color: white;
-}
-
 .smashing-books article {
   padding: 30px 50px;
   max-width: 800px;
+}
+
+footer p {
+  align-self: center;
+  max-width: 400px;
+  font-style: italic;
+  text-align: center;
+  font-size: 16px;
 }
 
 .smashing-books p {
@@ -488,14 +509,6 @@ button {
 
 .guides h3 {
   font-weight: 100;
-}
-
-footer p {
-  align-self: center;
-  max-width: 400px;
-  font-style: italic;
-  text-align: center;
-  font-size: 16px;
 }
 
 .guides p {
