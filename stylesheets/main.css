@@ -5,6 +5,10 @@ body {
     padding: 0;
 }
 
+img {
+    filter: grayscale(1);
+}
+
 nav {
     grid-template-columns: min-content 600px 100px 100px;
     grid-gap: 20px;
@@ -66,10 +70,16 @@ footer {
     width: 50px;
     height: 50px;
 }
+
+.header-article img,
+.cartoon img,
+.twitter img {
+    transform: rotate(-20deg);
+}
+
 .header-article img{
     width: 86px;
     height: 96px;
-    transform: rotate(-20deg);
     border-radius: 10px;
 }
 
@@ -187,14 +197,12 @@ footer {
 }
 
 .cartoon img {
-    transform: rotate(-20deg);
     width: 250px;
     height: 322px;
 }
 
 /* latest-post section */
 .latest-post {
-  display: grid;
   grid-template-columns: repeat(3,1fr);
   column-gap: 50px;
   padding-top: 40px;
@@ -206,13 +214,13 @@ footer {
 }
 
 .latest-post, 
-.supporters {
+.supporters,
+.color-h5 {
     background-color: rgb(133, 131, 131);
 }
 
 
 .supporters {
-    display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 450px;
     padding-bottom: 60px;
@@ -237,11 +245,28 @@ footer {
     font-size: 15px;
     font-weight: 400;
 }
+
 .color-h5 {
     font-size: 15px;
     font-weight: 400;
-    background-color: rgb(56, 54, 54);;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px;
+    align-items: center;
+}
 
+.color-h5 a,
+.color-h5 a:visited {
+    width: 100%;
+    height: 40px;
+    text-decoration: none;
+    border-bottom: 4px solid black;
+    font-size: 20px;
+    display: block;
+}
+
+.color-h5 div {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .our-friends {
@@ -281,7 +306,11 @@ footer {
 }
 
 .smashing-members a,
-.smashing-members a:visited {
+.smashing-members a:visited,
+.color-h5 a, 
+.color-h5 a:visited,
+.ad-section a,
+.ad-section a:visited {
     color: white;
 }
 
@@ -309,10 +338,34 @@ footer {
     color: white;
 }
 
+.ad-section {
+    background-color: lightslategray;
+    height: 1000px;
+}
+
+.ad-section a, 
+.ad-section a:visited {
+    font-size: 60px;
+}
+
 .advertisment {
-    background-color: blue;
     width: 75%;
     margin: 30px auto;
+    text-align: center;
+}
+
+.advertisment h5 {
+    font-size: 20px;
+    max-width: 600px;
+    margin-left: 150px;
+}
+
+.advertisment button {
+    width: 250px;
+    height: 60px;
+    font-size: 20px;
+    background-color: white;
+
 }
 
 .community-img {
