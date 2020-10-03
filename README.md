@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/che30/Smashing_Magazines/ff765165eadb5071391954cc5ecc5d294474b2b1/index.html)
+[Live Demo Link](https://che30.github.io/Smashing_Magazines/)
 
 ## Authors
 
