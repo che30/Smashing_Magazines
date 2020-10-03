@@ -73,14 +73,15 @@ footer {
 
 .header-article img,
 .cartoon img,
-.twitter img {
+.twitter img,.latest-news img,.twitter-image img {
     transform: rotate(-20deg);
 }
 
-.header-article img{
+.header-article img,.twitter-image img {
     width: 86px;
     height: 96px;
     border-radius: 10px;
+    border: 3px solid black;
 }
 
 .search-bar {
@@ -215,7 +216,7 @@ footer {
 
 .latest-post, 
 .supporters,
-.color-h5 {
+.color-h5,.latest-news,.twitter {
     background-color: rgb(133, 131, 131);
 }
 
@@ -313,7 +314,30 @@ footer {
 .ad-section a:visited {
     color: white;
 }
+.latest-news {
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 400px;
+   padding-top: 40px;
+   color: white;
+   padding-bottom: 40px;
+}
+.latest-news img {
+    width: 160px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    border: solid black;
+ 
 
+}
+.community {
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2.5;
+    max-width: 850px;
+}
 .shopify-partners {
     border: 1px solid black;
     width: 250px;
@@ -379,12 +403,16 @@ footer {
 }
 .twitter {
     grid-template-columns: repeat(2,1fr 2fr);
-    column-gap: 70px;
+    column-gap: 10px;
     row-gap: 100px;
-    margin-right: 40px;
-    margin-left: 40px;
+    padding: 40px 40px;
 }
-
+.twitter-author {
+  padding-right: 40px;
+  color: white;
+  font-size: 18px;
+  line-height: 2;
+}
 .smashing-books {
     background-color: red;
     grid-template-columns: 75% 25%;
