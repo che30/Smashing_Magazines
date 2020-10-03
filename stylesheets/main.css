@@ -90,6 +90,7 @@ footer {
 
 .search-bar {
     position: relative;
+    color: gray;
 }
 
 .search-bar input {
