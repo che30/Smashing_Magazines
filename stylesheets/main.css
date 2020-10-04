@@ -18,7 +18,7 @@ img {
   border-bottom: 4px solid black;
   font-size: 20px;
   display: block;
-  color: white;
+  color: black;
 }
 
 .ad-section-a {
@@ -234,7 +234,7 @@ footer {
 
 .membership,
 .smashing-books {
-  background: linear-gradient(rgb(131, 98, 98), #686868);
+  background-color: #101010;
 }
 
 .membership article {
@@ -278,7 +278,8 @@ footer {
 .color-h5,
 .latest-news,
 .twitter {
-  background-color: rgb(133, 131, 131);
+  background-color: #F8F8F8;
+  color: black;
 }
 
 .supporters {
@@ -380,7 +381,7 @@ footer {
   width: 250px;
   margin: 10px auto;
   padding: 10px 20px;
-  background-color: white;
+  /* background-color: white; */
 }
 
 .shopify-partners img {
@@ -395,7 +396,7 @@ footer {
 }
 
 .shopify-partners button {
-  background-color: grey;
+  background-color: #383838;
   width: 150px;
   height: 50px;
   color: white;
@@ -442,7 +443,7 @@ footer {
 
 .twitter-author {
   padding-right: 40px;
-  color: white;
+  color: #101010;
   font-size: 18px;
   line-height: 2;
 }
