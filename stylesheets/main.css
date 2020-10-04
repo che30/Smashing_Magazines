@@ -26,11 +26,15 @@ img {
 }
 
 .smashing-link,
+.smashing-link a {
+  color: white;
+}
+
 .smashing-link:visited,
 .color-h5-a:visited,
 .ad-section-a,
 .ad-section-a:visited {
-  color: white;
+  color: black;
 }
 
 .nav-a {
@@ -278,7 +282,7 @@ footer {
 .color-h5,
 .latest-news,
 .twitter {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   color: black;
 }
 
@@ -334,6 +338,7 @@ footer {
   width: 600px;
   text-align: center;
   font-weight: 100;
+  color: white;
 }
 
 .smashing-members button {
@@ -381,7 +386,6 @@ footer {
   width: 250px;
   margin: 10px auto;
   padding: 10px 20px;
-  /* background-color: white; */
 }
 
 .shopify-partners img {
@@ -443,7 +447,6 @@ footer {
 
 .twitter-author {
   padding-right: 40px;
-  color: #101010;
   font-size: 18px;
   line-height: 2;
 }
