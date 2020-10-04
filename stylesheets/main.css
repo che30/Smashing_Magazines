@@ -1,0 +1,608 @@
+body {
+  font-family: 'Cabin', sans-serif;
+  max-width: 1440px;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+img {
+  filter: grayscale(1);
+}
+
+.color-h5-a,
+.color-h5-a:visited {
+  width: 100%;
+  height: 40px;
+  text-decoration: none;
+  border-bottom: 4px solid black;
+  font-size: 20px;
+  display: block;
+  color: black;
+}
+
+.ad-section-a {
+  font-size: 60px;
+}
+
+.smashing-link,
+.smashing-link a {
+  color: white;
+}
+
+.smashing-link:visited,
+.color-h5-a:visited,
+.ad-section-a,
+.ad-section-a:visited {
+  color: black;
+}
+
+.nav-a {
+  text-decoration: none;
+  color: black;
+}
+
+.ad-section-a:visited {
+  font-size: 60px;
+}
+
+.guides a {
+  font-size: 40px;
+  color: black;
+  display: block;
+  max-width: 65%;
+}
+
+.smashing-books a,
+.smashing-books a:visited {
+  font-size: 50px;
+  color: white;
+}
+
+.guides a:visited {
+  font-size: 40px;
+  color: black;
+  display: block;
+  max-width: 65%;
+}
+
+nav {
+  grid-template-columns: min-content 600px 100px 100px;
+  grid-gap: 20px;
+  align-items: center;
+  background-color: silver;
+  max-width: 100%;
+  font-size: 20px;
+  padding: 25px 10px;
+}
+
+nav ul {
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+button {
+  border-radius: 10px;
+}
+
+nav button {
+  height: 50px;
+  background-color: #505050;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+main {
+  width: 100%;
+}
+
+footer {
+  background-color: rgb(116, 119, 119);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.d-grid {
+  display: grid;
+}
+
+/* header section */
+.logo {
+  margin-left: 50px;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.header-article img,
+.cartoon img,
+.twitter img,
+.latest-news img,
+.twitter-image img,
+.smashing-books img {
+  transform: rotate(-20deg);
+}
+
+.header-article img,
+.twitter-image img {
+  width: 86px;
+  height: 96px;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+.search-bar {
+  position: relative;
+  color: gray;
+}
+
+.search-bar input {
+  height: 40px;
+  width: 200px;
+}
+
+.search-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.search-placeholder {
+  position: absolute;
+  left: 40px;
+  top: 0;
+  line-height: 40px;
+  width: max-content;
+  font-size: 20px;
+}
+
+.grid-header-section {
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  background-color: rgb(56, 54, 54);
+  font-size: 20px;
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  top: 30px;
+  left: 35%;
+  max-width: 400px;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.absolute span {
+  background-color: black;
+}
+
+.grid-header-main {
+  grid-template-columns: 1fr;
+}
+
+.grid-header-main svg {
+  padding-top: 55px;
+  width: 40px;
+  line-height: 40px;
+  align-self: center;
+}
+
+.grid-header-main button {
+  margin-top: 60px;
+  margin-right: 30px;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.seriously {
+  justify-self: end;
+}
+
+.seriously button {
+  background-color: black;
+  color: white;
+  font-size: 19px;
+}
+
+.grid-header-article {
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 500px;
+  margin-top: 20px;
+}
+
+.header-article {
+  padding: 40px;
+  border-right: 1px solid #484848;
+  border-bottom: 1px solid #484848;
+  padding-top: 80px;
+}
+
+/* membership section */
+.membership {
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 500px;
+  position: relative;
+  font-size: 20px;
+}
+
+.membership,
+.smashing-books {
+  background-color: #101010;
+}
+
+.membership article {
+  width: 75%;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.membership button {
+  background-color: black;
+  height: 70px;
+  width: 400px;
+  color: white;
+  font-size: 20px;
+}
+
+.cartoon {
+  top: -80px;
+  position: absolute;
+  right: 200px;
+}
+
+.cartoon img {
+  width: 250px;
+  height: 322px;
+}
+
+/* latest-post section */
+.latest-post {
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 50px;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.latest-post,
+.supporters,
+.color-h5,
+.latest-news,
+.twitter {
+  background-color: #f8f8f8;
+  color: black;
+}
+
+.supporters {
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 450px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.margin-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.partners {
+  font-size: 12px;
+  max-width: 350px;
+}
+
+.partners > h2 {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.partners article {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.color-h5 {
+  font-size: 15px;
+  font-weight: 400;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px;
+  align-items: center;
+}
+
+.our-friends {
+  font-size: 12px;
+}
+
+.smashing-members {
+  background-color: rgb(56, 54, 54);
+  border-radius: 12px;
+  padding: 30px 50px;
+  width: 700px;
+  align-items: center;
+  height: 450px;
+}
+
+.smashing-members h2 {
+  width: 600px;
+  text-align: center;
+  font-weight: 100;
+  color: white;
+}
+
+.smashing-members button {
+  height: 50px;
+  width: 180px;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+.smashing-members img {
+  width: 258px;
+  height: 290px;
+}
+
+.latest-news {
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 400px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+
+.latest-news img {
+  width: 160px;
+  height: 180px;
+  border-radius: 8px;
+  border: solid black;
+}
+
+.community {
+  font-size: 20px;
+  line-height: 2.5;
+  max-width: 850px;
+}
+
+.smashing-books button,
+.guides button {
+  width: 300px;
+  height: 50px;
+}
+
+.shopify-partners {
+  border: 1px solid black;
+  width: 250px;
+  margin: 10px auto;
+  padding: 10px 20px;
+}
+
+.shopify-partners img {
+  width: 150px;
+}
+
+.advertisment button {
+  width: 250px;
+  height: 60px;
+  font-size: 20px;
+  background-color: white;
+}
+
+.shopify-partners button {
+  background-color: #383838;
+  width: 150px;
+  height: 50px;
+  color: white;
+  margin: 0 50px;
+}
+
+.shopify-partners div button {
+  color: white;
+}
+
+.ad-section {
+  background-color: #888;
+  height: 1000px;
+}
+
+.advertisment {
+  width: 75%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.advertisment h5 {
+  font-size: 20px;
+  max-width: 600px;
+  margin-left: 150px;
+}
+
+.community-img {
+  float: left;
+  height: 100px;
+  width: 25%;
+}
+
+.community-article {
+  width: 75%;
+}
+
+.twitter {
+  grid-template-columns: repeat(2, 1fr 2fr);
+  column-gap: 10px;
+  row-gap: 100px;
+  padding: 40px 40px;
+}
+
+.twitter-author {
+  padding-right: 40px;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.smashing-books {
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 500px;
+  justify-content: start;
+  position: relative;
+}
+
+.smashing-books img {
+  width: 256px;
+  height: auto;
+  position: absolute;
+  top: -30px;
+}
+
+.smashing-books article {
+  padding: 30px 50px;
+  max-width: 800px;
+}
+
+footer p {
+  align-self: center;
+  max-width: 400px;
+  font-style: italic;
+  text-align: center;
+  font-size: 16px;
+}
+
+.smashing-books p {
+  font-size: 20px;
+  line-height: 2;
+}
+
+.smashing-books h3 {
+  letter-spacing: 4px;
+}
+
+.guides {
+  grid-template-columns: 520px 520px;
+  gap: 50px 10px;
+  justify-content: space-around;
+  padding-top: 70px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 50px;
+  background-color: rgb(170, 167, 167);
+}
+
+.guides article {
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 8px;
+  background-color: rgb(232, 234, 235);
+  color: black;
+}
+
+.guides h3 {
+  font-weight: 100;
+}
+
+.guides p {
+  font-size: 20px;
+}
+
+.c-guide {
+  justify-content: center;
+  line-height: 25px;
+}
+
+/* FOOTER SECTION */
+footer ul {
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+footer li {
+  margin-right: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  width: fit-content;
+  text-transform: capitalize;
+  font-size: 22px;
+  line-height: 2;
+}
+
+.no-styele {
+  text-decoration: none;
+  color: white;
+}
+
+.contact {
+  grid-template-columns: 20% 60% 20%;
+}
+
+.contact ul li {
+  font-size: 16px;
+}
+
+.contact img {
+  width: 150px;
+}
+
+@media (min-width: 300px) and (max-width: 800px) {
+  nav,
+  .grid-header-article,
+  .latest-post,
+  .membership,
+  .supporters,
+  .twitter,
+  .smashing-books,
+  .guides,
+  .contact {
+    grid-template-columns: 1fr;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  .membership {
+    grid-template-rows: 800px;
+  }
+
+  .smashing-members {
+    max-width: 350px;
+  }
+
+  .smashing-members h2 {
+    width: 75%;
+  }
+
+  .cartoon img,
+  .smashing-books img {
+    display: none;
+  }
+
+  .latest-news img {
+    width: 50px;
+    height: 60px;
+  }
+
+  .latest-news p {
+    font-size: 13px;
+  }
+
+  .membership button {
+    width: 75%;
+  }
+}
