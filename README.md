@@ -25,7 +25,7 @@
 
 - GitHub: [@che30](https://github.com/che30)
 - Twitter: [@BlanchardNsoh](https://twitter.com/BlanchardNsoh )
-- LinkedIn: [Che Blanchard](https://www.linkedin.com/in/che-nsoh-9455271b0/)
+- LinkedIn: [@che55085128](https://twitter.com/che55085128)
 
 ## Acknowledgements
 - Smashing magazine
